@@ -12,7 +12,7 @@ public class SDLog {
 	public static boolean saveLogToSD = true;
 	public static String saveLogPath = Environment.getExternalStorageDirectory() + "/SD_LOG";
 
-  //Log Type (Just For Printing at LogCat)
+        //Log Type (Just For Printing at LogCat)
 	public enum LogType {
 		E, W, D, V, I
 	}
