@@ -17,7 +17,7 @@ public class SDLog {
 		E, W, D, V, I
 	}
 
-	public static void v(String tag, String logText, LogType logType) {
+	public static void log(String tag, String logText, LogType logType) {
 
 		if (logText == null) {
 			return;
